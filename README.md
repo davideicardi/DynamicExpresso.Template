@@ -19,7 +19,7 @@ but only `Expression` tree using `DynamicExpresso` library.
 
 	...
 
-	var engine = new TemplateEngine<DateTime>();
+	var engine = new TemplateEngine<MyModel>();
 
 	var model = new MyModel();
 	const string template = "<div>@Model.Method1()</div>";
