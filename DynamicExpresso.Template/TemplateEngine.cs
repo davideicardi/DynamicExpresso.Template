@@ -23,11 +23,19 @@ namespace DynamicExpresso.Template
 
 		private string Replacer(Match match, T model)
 		{
-			var expression = NormalizeExpression(match);
+			var expression = NormalizeExpression(match.Value);
 
 			var expDelegate = GetOrCreateDelegate(expression);
 
-			return expDelegate(model)?.ToString();
+			var result = expDelegate(model);
+			if (result == null)
+				return string.Empty;
+
+			var resultAsString = result as string;
+			if (resultAsString != null)
+				return resultAsString;
+
+			return result.ToString();
 		}
 
 		private Func<T, object> GetOrCreateDelegate(string expression)
@@ -35,10 +43,9 @@ namespace DynamicExpresso.Template
 			return _expressionCatalog.GetOrAdd(expression, CreateDelegate);
 		}
 
-		private static string NormalizeExpression(Match match)
+		private static string NormalizeExpression(string expression)
 		{
-			var expression = match.Value.Replace("@Model.", "Model.");
-			return expression;
+			return expression.Replace("@Model.", "Model.");
 		}
 
 		private Func<T, object> CreateDelegate(string expression)
