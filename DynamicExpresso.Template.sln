@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicExpresso.Template.Performance", "DynamicExpresso.Template.Performance\DynamicExpresso.Template.Performance.csproj", "{573B05E1-7FEF-46D2-8264-DCA6F79C82DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573B05E1-7FEF-46D2-8264-DCA6F79C82DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573B05E1-7FEF-46D2-8264-DCA6F79C82DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573B05E1-7FEF-46D2-8264-DCA6F79C82DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573B05E1-7FEF-46D2-8264-DCA6F79C82DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
