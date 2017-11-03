@@ -1,6 +1,11 @@
 # DynamicExpresso.Template
 
-Simple Razor template engine for dummies
+**ALPHA VERSION!!!**
+
+Simple Razor template engine for dummies.
+
+Template for now supports only expressions like `@Model.Xyz`. The main advantage over standard Razor is that doesn't generate an assembly 
+but only `Expression` tree using `DynamicExpresso` library.
 
 ## Usage
 
