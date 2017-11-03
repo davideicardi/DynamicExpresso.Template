@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicExpresso.Template", "DynamicExpresso.Template\DynamicExpresso.Template.csproj", "{EF864E1A-4219-467B-B776-D90F8683A9E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicExpresso.Template.Test", "DynamicExpresso.Template.Test\DynamicExpresso.Template.Test.csproj", "{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{625D3509-C0D1-4CFA-B36B-B67B47B81703}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF864E1A-4219-467B-B776-D90F8683A9E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF864E1A-4219-467B-B776-D90F8683A9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF864E1A-4219-467B-B776-D90F8683A9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF864E1A-4219-467B-B776-D90F8683A9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADB2A6D-7F42-4DB3-8F8D-5439C872EDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8EBC349-111A-4960-96F7-AC8B83256389}
+	EndGlobalSection
+EndGlobal
